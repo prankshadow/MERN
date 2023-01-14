@@ -1,38 +1,66 @@
-.App {
+/* Login Page */
+
+.login-container {
+  margin-top: 4rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.formBox {
+  margin-top:6%;
+  margin-bottom: 6%;
+}
+
+.login-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container img {
+  height: auto;
+  width: auto;
+  max-width: 40rem;
+  max-height: 40rem;
+}
+
+.logIn-button {
+  opacity: 0.8;
+}
+
+.input-bg {
+  background-color: #f3f3f3;
+  color: #dbd5d5;
+  font-size: 0.9rem;
+  height: 2.9rem;
+}
+
+.signup-text {
+  font-size: small;
+}
+
+.signup-text a {
+  text-decoration: none;
+}
+
+.box-2 {
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.or-head {
+  width: 100%;
+  border-bottom: 1px solid rgb(229, 219, 219);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.or-span {
+  background: #fff;
+  padding: 0 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
